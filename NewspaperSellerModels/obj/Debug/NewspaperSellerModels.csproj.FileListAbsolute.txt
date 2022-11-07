@@ -30,3 +30,9 @@ C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimula
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.pdb
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.dll
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.pdb
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csprojAssemblyReference.cache
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csproj.CoreCompileInputs.cache
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
+D:\PDF\4th year\first term\Symister 1\Modeling and Simulations\Labs\PDF\Lab 3_Task 2\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb

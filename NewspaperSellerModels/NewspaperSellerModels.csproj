@@ -46,6 +46,7 @@
     <Compile Include="Enums.cs" />
     <Compile Include="PerformanceMeasures.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadDataFromTextFile.cs" />
     <Compile Include="SimulationCase.cs" />
     <Compile Include="SimulationSystem.cs" />
   </ItemGroup>
