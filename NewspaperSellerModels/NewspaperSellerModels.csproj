@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculations.cs" />
     <Compile Include="DayTypeDistribution.cs" />
     <Compile Include="DemandDistribution.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Funcations.cs" />
     <Compile Include="PerformanceMeasures.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadDataFromTextFile.cs" />

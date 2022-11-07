@@ -38,6 +38,10 @@ namespace NewspaperSellerModels
                 {
                     sys.SellingPrice = decimal.Parse(lines[i + 1]);
                 }
+                else if(lines[i]== "ScrapPrice")
+                {
+                    sys.ScrapPrice = decimal.Parse(lines[i + 1]);
+                }
                 else if (lines[i] == "DayTypeDistributions")
                 {
                     decimal p1 = decimal.Parse(lines[i + 1].Split(',')[0]);

@@ -19,6 +19,9 @@ namespace NewspaperSellerSimulation
             String path = "D:\\PDF\\4th year\\first term\\Symister 1\\Modeling and Simulations\\Labs\\PDF\\Lab 3_Task 2\\NewspaperSellerSimulation_Students\\NewspaperSellerSimulation\\TestCases\\TestCase1.txt";
             SimulationSystem system = new SimulationSystem();
             ReadDataFromTextFile data = new ReadDataFromTextFile(path, system);
+            Calculations.FillTabel(system);
+            String testingResult = TestingManager.Test(system, Constants.FileNames.TestCase1);
+            MessageBox.Show(testingResult);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

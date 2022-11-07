@@ -35,9 +35,23 @@ namespace NewspaperSellerModels
                     for(int j = 0; j < cou; j++)
                     {
                         dayDi[i].DayTypeDistributions[j].CummProbability = dayDi[i].DayTypeDistributions[j].Probability + dayDi[i - 1].DayTypeDistributions[j].CummProbability;
-                        dayDi[i].DayTypeDistributions[j].MinRange = dayDi[i - 1].DayTypeDistributions[j].MaxRange + 1;
+                        if (dayDi[i].DayTypeDistributions[j].Probability != 0)
+                        {
+                            dayDi[i].DayTypeDistributions[j].MinRange = dayDi[i - 1].DayTypeDistributions[j].MaxRange + 1;
+                        }
+                        else
+                        {
+                            dayDi[i].DayTypeDistributions[j].MinRange = 0;
+                        }
                         int tmp = (int)((dayDi[i].DayTypeDistributions[j].CummProbability * 100));
-                        dayDi[i].DayTypeDistributions[j].MaxRange = tmp;
+
+                        if (dayDi[i].DayTypeDistributions[j].Probability != 0) {
+                            dayDi[i].DayTypeDistributions[j].MaxRange = tmp;
+                        }
+                        else
+                        {
+                            dayDi[i].DayTypeDistributions[j].MaxRange = 0;
+                        }
                     }
                 }
             }
