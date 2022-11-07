@@ -33,5 +33,15 @@ namespace NewspaperSellerModels
                 sys.SimulationTable.Add(row);
             }
         }
+        public static void FillPerformanceMeasures(SimulationSystem sys)
+        {
+            sys.PerformanceMeasures.TotalSalesProfit = FuncationsPerformanceMeasures.CalculateTotalSalesProfit(sys);
+            sys.PerformanceMeasures.TotalCost = sys.SimulationTable[0].DailyCost * sys.NumOfRecords;
+            sys.PerformanceMeasures.TotalLostProfit = FuncationsPerformanceMeasures.CalculateTotalLostProfit(sys);
+            sys.PerformanceMeasures.TotalScrapProfit = FuncationsPerformanceMeasures.CalculateTotalScrapProfit(sys);
+            sys.PerformanceMeasures.TotalNetProfit = FuncationsPerformanceMeasures.CalculateTotalNetProfit(sys);
+            sys.PerformanceMeasures.DaysWithMoreDemand = FuncationsPerformanceMeasures.CalculateDaysWithMoreDemand(sys);
+            sys.PerformanceMeasures.DaysWithUnsoldPapers = FuncationsPerformanceMeasures.CalculateDaysWithUnsoldPapers(sys);
+        }
     }
 }
